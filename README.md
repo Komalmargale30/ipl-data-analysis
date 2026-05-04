@@ -1,83 +1,161 @@
-# 🏏 IPL 2025 Season Analysis Dashboard
+# 🏏 IPL Data Analysis Project
 
-An end-to-end data analytics project exploring the **2025 Indian Premier League season** using Python, SQL, and Power BI.
-This project transforms raw cricket data into meaningful insights through data cleaning, analysis, and interactive visualization.
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical-blue)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical-blueviolet)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive-red)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-## 📊 Project Overview
+---
 
-This dashboard provides a comprehensive breakdown of IPL 2025, including team performance, player statistics, toss impact, and venue-based insights.
-The goal is to demonstrate **data storytelling**, **business intelligence skills**, and **sports analytics**.
+## 📌 Project Overview
 
-## 🚀 Features
+This project analyzes IPL (Indian Premier League) ball-by-ball data using Python.
 
-* 📈 Interactive Power BI Dashboard
-* 🏆 Team performance comparison
-* 🧢 Top batsmen analysis (runs, consistency)
-* 🎯 Toss impact on match outcomes
-* 🏟️ Venue-wise win distribution
-* 📊 Win/Loss breakdown visualization
-* 🔍 Advanced filtering and drill-down insights
+It focuses on:
 
-## 🛠️ Tech Stack
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Player Performance Analysis
+* Team Performance Analysis
+* Match Trends
+* Data Visualization
 
-* **Python** – Data cleaning & preprocessing
+---
 
-  * Pandas
-  * NumPy
-  * Matplotlib
+## 📸 Project Preview
 
-* **SQL** – Data querying and transformation
+### Top Batsmen
 
-* **Power BI** – Dashboard creation & visualization
+![Top Batsmen](images/batsmen.png)
 
-## 📁 Dataset Description
+### Top Bowlers
 
-| File Name                | Description                             |
-| ------------------------ | --------------------------------------- |
-| `clean_matches.csv`      | Match results, toss decisions, outcomes |
-| `clean_batsman.csv`      | Cleaned batsman performance data        |
-| `ipl_batsman.csv`        | Raw batsman statistics                  |
-| `match_details_2025.csv` | Ball-by-ball or detailed match data     |
+![Top Bowlers](images/bowlers.png)
 
+### Team Performance
 
-## 📌 Key Insights
+![Teams](images/teams.png)
 
-* 🪙 Teams winning the toss had a **significant advantage (~56% win rate)**
-* 🏟️ Certain venues showed strong **home-ground dominance trends**
-* 🧢 Top batsmen consistently contributed to team success
-* 🏆 Teams like **RCB and GT** dominated the season standings
-* 📊 Balanced teams performed better than star-heavy lineups
+### Year-wise Matches
 
+![Yearly](images/yearly.png)
 
-## 📷 Dashboard Preview
+### Run Distribution
 
-<img width="1917" height="921" alt="Screenshot 2026-04-29 174507" src="https://github.com/user-attachments/assets/2f25bd10-8c03-482d-a899-0a6d324ca846" />
+![Distribution](images/distribution.png)
 
+---
 
-## 📚 Learnings
+## 🚀 Technologies Used
 
-* Data cleaning and transformation using Python
-* Writing efficient SQL queries for analysis
-* Designing interactive dashboards in Power BI
-* Converting raw data into actionable insights
-* Improving data storytelling skills
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Plotly
+* Google Colab
 
+---
 
-## 🔮 Future Improvements
+## 📂 Dataset Information
 
-* Add bowling analytics (economy, wickets, impact)
-* Predict match winners using ML models
-* Deploy dashboard on web (Power BI Service / Streamlit)
-* Real-time data integration
+* IPL Ball-by-Ball Dataset
+* Contains match, player, and performance data
+* Sample dataset included due to GitHub size limits
 
+---
 
+## 📊 Analysis Performed
 
-## 🤝 Contributing
+### Data Cleaning
 
-Feel free to fork this repository and suggest improvements!
+* Removed unnecessary columns
+* Handled missing values
+* Converted date column
 
+### Exploratory Data Analysis
 
+* Top batsmen (total runs)
+* Strike rate analysis
+* Top bowlers (wickets)
+* Team performance
+* Most winning teams
+* Year-wise matches
+* Run distribution
+
+---
+
+## 💡 Key Insights
+
+* Top batsmen contribute majority of total runs
+* Certain teams consistently dominate matches
+* High strike rate players are crucial in scoring
+* Wicket-taking bowlers influence match outcomes
+* Matches have increased over the years
+
+---
+
+## 🧠 Skills Demonstrated
+
+* Data Cleaning
+* Exploratory Data Analysis
+* Data Visualization
+* Sports Analytics
+* Insight Generation
+* Python Programming
+
+---
+
+## 📁 Project Structure
+
+```
+ipl-data-analysis/
+│
+├── sample_ipl_data.csv
+├── cleaned_ipl_data.csv (optional)
+├── notebook.ipynb
+├── insights.txt
+├── README.md
+│
+└── images/
+    ├── batsmen.png
+    ├── bowlers.png
+    ├── teams.png
+    ├── yearly.png
+    └── distribution.png
+```
+
+---
+
+## ▶️ How to Run
+
+1. Open notebook in Google Colab
+2. Upload dataset (or use sample file)
+3. Run all cells
+4. View outputs and graphs
+
+---
+
+## 📌 Future Improvements
+
+* Add batting average
+* Add bowler economy
+* Build Streamlit dashboard
+* Add ML model for prediction
+
+---
+
+## 👩‍💻 Author
+
+**Komal Margale**
+Data Analyst | Python Enthusiast
+
+---
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub!
+If you like this project, give it a ⭐ on GitHub
